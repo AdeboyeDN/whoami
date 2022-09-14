@@ -41,14 +41,11 @@ const Projects =()=> {
         <>
         
             <ContainerLayout>
-             <Header/>
 
              <Box my={'3em'}>
                 <Text my={'0.5em'} textAlign={'center'} 
                     fontFamily={'var(--outfit) !important'}
-                    fontSize={'2em'} fontWeight={'black'} color={'#7b7b7d'}>/Projects</Text>
-
-                    <Text textAlign={'center'} > List of Projects i have worked on </Text>
+                    fontSize={'2em'} fontWeight={'black'} color={'#7b7b7d'}>/Contents</Text>
              </Box>
 
 

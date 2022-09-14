@@ -11,7 +11,7 @@ const Work =()=> {
 
 
                 <Center>
-                    <Text my={'2em'} fontWeight={'bold'} fontSize={'1.8em'}>Things i have worked on </Text>
+                    <Text my={'2em'} fontWeight={'bold'} fontSize={'1.8em'}>My contents</Text>
                 </Center>
 
                 <Flex gap={'2em'} flexDir={['column','row']} display={['none','inline-flex']}>

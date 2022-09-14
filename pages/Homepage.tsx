@@ -13,12 +13,10 @@ const Homepage= () => {
     return (
         <>  
 
-          <LoaderScreen/>
 
           <Box>
               <ContainerLayout>
                     
-                <Header/>
 
                 <Hero/>
 
@@ -26,7 +24,6 @@ const Homepage= () => {
 
                 <Work/>
 
-               <Information/>
                <Footer/>
 
               </ContainerLayout>
