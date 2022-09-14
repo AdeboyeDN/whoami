@@ -15,7 +15,6 @@ const About =()=> {
                 <Box textAlign={['center', 'left']} px={['', '2em']}>
                    <Flex gap={'3em'} my={'2em'} flexDir={['column','row']} alignItems={'center'}>
                  
-                        <Image display={'none'} boxSize='200px' src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1662745429/1662421356129_cdkaxo.webp' alt='Dan Abramov' />
                     
                     <Box>
                         <Text my={'1em'}>
@@ -29,7 +28,7 @@ const About =()=> {
                 </Box>
                 
                 <Center>
-                    <Buttons color="black" bg="green.300">Say Hi 👋 </Buttons>
+                    <Buttons color="black" bg="yellow.300">Say Hi 👋 </Buttons>
                 </Center>
 
             </Box>

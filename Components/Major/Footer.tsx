@@ -1,5 +1,8 @@
 import { Box, ListItem, UnorderedList } from "@chakra-ui/react"
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import {BsYoutube} from 'react-icons/bs'
+import {SiHashnode} from 'react-icons/Si'
+import Link from 'next/link'
 
 export const Footer =()=> {
     return (
@@ -10,17 +13,15 @@ export const Footer =()=> {
 
                 </Box>
 
-                <Box my={'3em'} display={'flex'} justifyContent={['space-between']} >
-                    <Box>
-                        Adeboyedn 2022
-                    </Box>
+                <Box my={'3em'} display={'flex'} justifyContent={['center']} >
 
-                    <Box display={'inline-flex'} gap={'2em'}>
-                        <FaGithub/>
-                        <FaLinkedin/>
-                        <FaTwitter/>
-                        
 
+                    <Box display={'inline-flex'} justifyContent={['center']} gap={'2em'}>
+                        <Link href='#'><FaGithub/></Link>
+                        <Link href='#'><FaLinkedin/></Link>
+                        <Link href='#'><FaTwitter/></Link>
+                        <Link href='#'><BsYoutube/></Link>
+                        <Link href='#'><SiHashnode/></Link>
                     </Box>
                 </Box>
             </Box>

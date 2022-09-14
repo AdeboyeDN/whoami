@@ -13,7 +13,7 @@ const DefaultText =({children, textAlign, fontSize , fontWeight}: TextModel)=> {
     return (
         <>
 
-            <Text my={'1.5em'} textAlign={textAlign} fontWeight={fontWeight} fontSize={fontSize}  color={'green.300'} >{children}</Text>
+            <Text my={'1.5em'} textAlign={textAlign} fontWeight={fontWeight} fontSize={fontSize}  color={'yellow.300'} >{children}</Text>
         
         </>
     )
